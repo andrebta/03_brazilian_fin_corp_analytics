@@ -1,3 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS raw_bcb;
+
 CREATE TABLE IF NOT EXISTS raw_bcb.sgs_observations (
     series_id        integer NOT NULL,
     observation_date date    NOT NULL,
